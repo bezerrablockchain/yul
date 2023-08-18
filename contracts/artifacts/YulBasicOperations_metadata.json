@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "myNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "isPrime",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "prime",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testPrime",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/YulBasicOperations.sol": "YulBasicOperations"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/YulBasicOperations.sol": {
+			"keccak256": "0x33229192dd524802317c01b95e30c22231aa2e8d3263bd7a576771574e97e270",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://45c3bb14fba9954917a690a82d86d0d18a2e85f2cb12f1e4bc8bbe4164663566",
+				"dweb:/ipfs/QmWvj5dBNSa6nPvGVUQRJNN2rgKVnoieJAiCojQWwvE1vY"
+			]
+		}
+	},
+	"version": 1
+}
